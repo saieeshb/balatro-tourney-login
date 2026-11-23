@@ -1,6 +1,8 @@
-# Joining the Balatro PvP tourney
+<p align="center"><a href="https://balatro.saieesh.dev"><img src=".github/banner.png" width="100%" alt="Tourney Login for The Cavendish Cup. balatro.saieesh.dev"></a></p>
 
-The tourney runs on our own Balatro Multiplayer server. Setup takes about five minutes, and you don't need Steam running.
+# Joining The Cavendish Cup
+
+The tournament runs on our own Balatro Multiplayer server. Setup takes about five minutes, and you don't need Steam running. These are the same steps as on **[balatro.saieesh.dev](https://balatro.saieesh.dev)**, where you also register and find the Discord and WhatsApp group.
 
 **You need your own copy of Balatro** on Windows or Mac.
 
@@ -36,15 +38,6 @@ You play head to head on the same seed, with Red Deck at White Stake and 4 lives
 
 To practise, open the PvP menu, choose **Practice** and pick **Balanced**.
 
-### Hosting a match
-
-The higher seed hosts:
-
-1. Open the PvP menu, choose **Create Lobby**, then **Nemesis**.
-2. Open **Lobby Options** and set **Ruleset** to **Balanced**. New lobbies start on Expanded, so this step matters.
-3. Leave every other setting as it is. Don't press **Set to Verified Defaults**, because it switches the ruleset back to Expanded.
-4. Post the 6-letter lobby code in your match thread. Your opponent joins with **Join by Code**.
-
 ## Mods and fair play
 
 Only mods on the Balatro Multiplayer **approved list** are allowed: cosmetic, language and listed quality-of-life mods. Mods on its **banned list** mean disqualification. Examples include Talisman, Cryptid, Brainstorm, DVPreview, Showman, and anything that speeds the game above 4x or previews your deck.
@@ -71,7 +64,7 @@ On Mac the folder is `~/Library/Application Support/Balatro/Mods`. On Windows it
 
 ## Problems?
 
-- **Can't connect:** check that both multiplayer mods are 1.0.7 or newer, and that the tourney is live. Then message the organisers.
+- **Can't connect:** check that both multiplayer mods are 1.0.7 or newer, and that the tournament is live. Then ask in the WhatsApp group or on Discord, both linked at [balatro.saieesh.dev](https://balatro.saieesh.dev).
 - **Wrong name:** set it again in **Mods → Tourney Login → Config**, then restart the game.
 
 Names on this server aren't verified, so play under your own name. This is an unofficial community tourney, not affiliated with LocalThunk or Playstack.
