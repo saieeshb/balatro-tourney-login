@@ -28,11 +28,22 @@ Open the multiplayer menu and choose **PvP**. The first time, the server shows a
 
 Matches use the **Balanced** ruleset: near-vanilla Balatro with a few changes for PvP. Hanging Chad, Bloodstone, Reserved Parking and Glass are reworked, Justice is banned, and there are no Multiplayer-only cards.
 
-You play head to head on the same seed with 4 lives. From ante 2, every boss blind is a PvP blind: the higher score wins, and the loser loses a life.
+You play head to head on the same seed, with Red Deck at White Stake and 4 lives. From ante 2, every boss blind is a PvP blind: the higher score wins, and the loser loses a life.
 
-- **Clock:** once your opponent is ready, they can start your 150-second clock, which runs longer if you've skipped blinds. If it runs out, you lose a life.
+- **Failing an ordinary blind** also costs a life. You get some comeback money whenever you lose a life.
+- **Clock:** once your opponent is ready, they can start your 150-second clock. It gets 60 seconds longer for each blind you've skipped ahead. If it runs out, you lose a life, every time.
+- **The Order** is on, so both players get cards from the same fixed sequence. Score preview is allowed.
 
 To practise, open the PvP menu, choose **Practice** and pick **Balanced**.
+
+### Hosting a match
+
+The higher seed hosts:
+
+1. Open the PvP menu, choose **Create Lobby**, then **Nemesis**.
+2. Open **Lobby Options** and set **Ruleset** to **Balanced**. New lobbies start on Expanded, so this step matters.
+3. Leave every other setting as it is. Don't press **Set to Verified Defaults**, because it switches the ruleset back to Expanded.
+4. Post the 6-letter lobby code in your match thread. Your opponent joins with **Join by Code**.
 
 ## Mods and fair play
 
