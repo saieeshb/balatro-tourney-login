@@ -37,3 +37,7 @@ luajit tests/provider_test.lua path/to/MultiplayerAPI
 ```
 
 This loads the API's real `steam.lua`, `dev.lua` and `lifecycle.lua` with the game stubbed out. It then checks which server and login each setup gets: default, custom server, and preset off. It also checks the saved name.
+
+## Licence
+
+GNU General Public License v3.0. See [LICENSE](LICENSE).
