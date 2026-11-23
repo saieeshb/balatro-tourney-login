@@ -1,0 +1,19 @@
+{
+  "id": "NoSteamLogin",
+  "name": "Tourney Login",
+  "display_name": "Tourney Login",
+  "author": ["Saieesh"],
+  "description": "Connects Balatro Multiplayer to the tourney server at balatro.saieesh.dev, with or without Steam. Disable it to play on the official server again.",
+  "prefix": "nosteam",
+  "main_file": "core.lua",
+  "priority": -999999,
+  "badge_colour": "4A7A96",
+  "badge_text_colour": "FFFFFF",
+  "version": "1.1.0",
+  "dependencies": [
+    "Steamodded (>=1.0.0~BETA-1814a)",
+    "Lovely (>=0.10)",
+    "MultiplayerAPI (>=1.0.7)"
+  ],
+  "conflicts": []
+}
