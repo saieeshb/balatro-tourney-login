@@ -24,6 +24,15 @@ If you skip this, you'll show up as `Player-xxxx`, or under your Steam name if S
 
 Open the multiplayer menu and choose **PvP**. The first time, the server shows a notice and asks your age. For each match, join the lobby code your match organiser gives you.
 
+## Ruleset: Minor League
+
+Matches use **Minor League**, an official league ruleset. It plays vanilla cards head to head on the same seed, and each boss blind is a PvP blind where the higher score wins and the loser loses a life.
+
+- **Clock:** once you're ready, your opponent can start your 210-second clock. If it runs out, you lose a life. Your first run-out is forgiven.
+- **The Order:** on, so both players get cards from the same fixed sequence.
+
+To practise, open the PvP menu, choose **Practice** and pick the **Minor League** ruleset.
+
 ## Mods and fair play
 
 Only mods on the Balatro Multiplayer **approved list** are allowed: cosmetic, language and listed quality-of-life mods. Mods on its **banned list** mean disqualification. Examples include Talisman, Cryptid, Brainstorm, DVPreview, Showman, and anything that speeds the game above 4x or previews your deck.
