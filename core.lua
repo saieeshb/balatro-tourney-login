@@ -90,12 +90,30 @@ local function trim(s)
 	return (s:gsub('^%s+', ''):gsub('%s+$', ''))
 end
 
+-- Cuts to n bytes without splitting a UTF-8 character: LÖVE refuses to draw
+-- invalid UTF-8, so a name cut mid-character would break the lobby screen.
+local function cut(s, n)
+	s = s:sub(1, n)
+	local i = #s
+	while i > 0 and s:byte(i) >= 0x80 and s:byte(i) < 0xC0 do
+		i = i - 1
+	end
+	if i > 0 and s:byte(i) >= 0xC0 then
+		local lead = s:byte(i)
+		local need = lead >= 0xF0 and 4 or lead >= 0xE0 and 3 or 2
+		if #s - i + 1 < need then
+			s = s:sub(1, i - 1)
+		end
+	end
+	return s
+end
+
 local function configured_name()
 	local name = mod.config and mod.config.display_name
 	if type(name) == 'string' then
 		name = trim(name)
 		if name ~= '' then
-			return name:sub(1, NAME_MAX)
+			return cut(name, NAME_MAX)
 		end
 	end
 	return nil
@@ -180,7 +198,7 @@ mod.save_mod_config = function()
 end
 
 local function save_name()
-	local name = trim(name_input.text or ''):sub(1, NAME_MAX)
+	local name = cut(trim(name_input.text or ''), NAME_MAX)
 	mod.config.display_name = name
 	name_input.text = name
 	if write_saved_config() then
