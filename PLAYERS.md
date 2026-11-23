@@ -24,14 +24,15 @@ If you skip this, you'll show up as `Player-xxxx`, or under your Steam name if S
 
 Open the multiplayer menu and choose **PvP**. The first time, the server shows a notice and asks your age. For each match, join the lobby code your match organiser gives you.
 
-## Ruleset: Minor League
+## Ruleset: Balanced
 
-Matches use **Minor League**, an official league ruleset. It plays vanilla cards head to head on the same seed, and each boss blind is a PvP blind where the higher score wins and the loser loses a life.
+Matches use the **Balanced** ruleset: near-vanilla Balatro with a few changes for PvP. Hanging Chad, Bloodstone, Reserved Parking and Glass are reworked, Justice is banned, and there are no Multiplayer-only cards.
 
-- **Clock:** once you're ready, your opponent can start your 210-second clock. If it runs out, you lose a life. Your first run-out is forgiven.
-- **The Order:** on, so both players get cards from the same fixed sequence.
+You play head to head on the same seed with 4 lives. From ante 2, every boss blind is a PvP blind: the higher score wins, and the loser loses a life.
 
-To practise, open the PvP menu, choose **Practice** and pick the **Minor League** ruleset.
+- **Clock:** once your opponent is ready, they can start your 150-second clock, which runs longer if you've skipped blinds. If it runs out, you lose a life.
+
+To practise, open the PvP menu, choose **Practice** and pick **Balanced**.
 
 ## Mods and fair play
 
