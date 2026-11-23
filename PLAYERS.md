@@ -24,6 +24,14 @@ If you skip this, you'll show up as `Player-xxxx`, or under your Steam name if S
 
 Open the multiplayer menu and choose **PvP**. The first time, the server shows a notice and asks your age. For each match, join the lobby code your match organiser gives you.
 
+## Mods and fair play
+
+Only mods on the Balatro Multiplayer **approved list** are allowed: cosmetic, language and listed quality-of-life mods. Mods on its **banned list** mean disqualification. Examples include Talisman, Cryptid, Brainstorm, DVPreview, Showman, and anything that speeds the game above 4x or previews your deck.
+
+[Approved and banned mods list](https://docs.google.com/spreadsheets/d/1SR-Grf99e53-zODE8B7qGX53Jv1mNPqMVV9yFZGWv50)
+
+The server records which mods each player has installed, and organisers check them before matches.
+
 ## After the tourney
 
 Disable or remove **Tourney Login** in BET to play on the official server again. Nothing else needs undoing.
